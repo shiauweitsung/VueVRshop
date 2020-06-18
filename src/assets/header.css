@@ -1,0 +1,31 @@
+.header-bg {
+  background-image: url(./banner1.jpg);
+  background-size: cover;
+  height: 650px;
+}
+
+.menu li a {
+  color: white;
+}
+
+.menu li a:hover {
+  color: #3BF3E7;
+}
+
+.menu li a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 2px #3BF3E7;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.menu li a:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,25 @@
+.footer-bg{
+    background-color: #052B2F;
+}
+.footer-info ul{
+    border-bottom: 2px solid #3BF3E7;
+}
+.col-md-6 ul li{
+    list-style: none;
+}
+.footer-Community ul li a{
+    color:white;
+}
+.footer-Community ul li{
+    width: 25px;
+    border:1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 5px;
+}
+.footer-Community ul li:hover{
+    border:1px solid grey;
+}
+.footer-Community ul li a:hover{
+    color:grey;
+}

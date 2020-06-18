@@ -1,0 +1,46 @@
+.header{
+  position: relative;
+  z-index: 200;
+}
+  .menu li a{
+    color:white;
+  }
+  .menu li a:hover{
+    color:#3BF3E7;
+  }
+  .menu li a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 2px #3BF3E7;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+    .menu li a:hover:after{
+      transform: scaleX(1);
+  }
+  .menu li a.active{
+    
+  }
+  .count {
+    position: absolute;
+      font-size: 12px;
+      width: 15px;
+      height: 15px;
+      line-height: 15px;
+      border-radius: 50%;
+      display: block;
+      text-align: center;
+      background: #DC007B;
+      color: #fff;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+  }
+  .count-cart{
+    top: 15px;
+    right: 12px;
+    
+  }
+  .count-like{
+    top: 15px;
+    right: 50px;
+  }
